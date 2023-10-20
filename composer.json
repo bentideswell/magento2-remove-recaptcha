@@ -1,0 +1,29 @@
+{
+    "name": "fishpig/magento2-remove-recaptcha",
+    "version": "1.0.0",
+    "replace": {
+        "magento/module-re-captcha-admin-ui": "*",
+        "magento/module-re-captcha-checkout": "*",
+        "magento/module-re-captcha-checkout-sales-rule": "*",
+        "magento/module-re-captcha-contact": "*",
+        "magento/module-re-captcha-customer": "*",
+        "magento/module-re-captcha-frontend-ui": "*",
+        "magento/module-re-captcha-migration": "*",
+        "magento/module-re-captcha-newsletter": "*",
+        "magento/module-re-captcha-paypal": "*",
+        "magento/module-re-captcha-review": "*",
+        "magento/module-re-captcha-send-friend": "*",
+        "magento/module-re-captcha-store-pickup": "*",
+        "magento/module-re-captcha-ui": "*",
+        "magento/module-re-captcha-user": "*",
+        "magento/module-re-captcha-validation": "*",
+        "magento/module-re-captcha-validation-api": "*",
+        "magento/module-re-captcha-version-2-checkbox": "*",
+        "magento/module-re-captcha-version-2-invisible": "*",
+        "magento/module-re-captcha-version-3-invisible": "*",
+        "magento/module-re-captcha-webapi-api": "*",
+        "magento/module-re-captcha-webapi-graph-ql": "*",
+        "magento/module-re-captcha-webapi-rest": "*",
+        "magento/module-re-captcha-webapi-ui": "*"
+    }
+}
