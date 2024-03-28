@@ -1,12 +1,14 @@
 {
     "name": "fishpig/magento2-remove-recaptcha",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "Magento\\ReCaptchaUi\\": "Mock/Magento/ReCaptchaUi"
+            "Magento\\ReCaptchaUi\\": "Mock/Magento/ReCaptchaUi",
+            "Magento\\ReCaptchaValidation\\": "Mock/Magento/ReCaptchaValidation",
+            "Magento\\ReCaptchaValidationApi\\": "Mock/Magento/ReCaptchaValidationApi"
         }
     },
     "replace": {
