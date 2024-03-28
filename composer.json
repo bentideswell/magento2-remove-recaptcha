@@ -1,6 +1,6 @@
 {
     "name": "fishpig/magento2-remove-recaptcha",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "replace": {
         "magento/module-re-captcha-admin-ui": "*",
         "magento/module-re-captcha-checkout": "*",
@@ -11,7 +11,6 @@
         "magento/module-re-captcha-migration": "*",
         "magento/module-re-captcha-newsletter": "*",
         "magento/module-re-captcha-paypal": "*",
-        "magento/module-re-captcha-review": "*",
         "magento/module-re-captcha-send-friend": "*",
         "magento/module-re-captcha-store-pickup": "*",
         "magento/module-re-captcha-ui": "*",
