@@ -3,6 +3,9 @@
     <preference for="Magento\ReCaptchaUi\Model\IsCaptchaEnabledInterface" type="Magento\ReCaptchaUi\Model\IsCaptchaEnabled"/>
     <preference for="Magento\ReCaptchaUi\Model\UiConfigResolverInterface" type="Magento\ReCaptchaUi\Model\UiConfigResolver"/>
     <preference for="Magento\ReCaptchaValidationApi\Api\ValidatorInterface" type="Magento\ReCaptchaValidation\Model\Validator"/>
+    <preference for="Magento\ReCaptchaWebapiApi\Api\Data\EndpointInterface" type="Magento\ReCaptchaWebapiApi\Model\Data\Endpoint"/>
+
+
     <!--
     <preference for="Magento\ReCaptchaUi\Model\RequestHandlerInterface" type="Magento\ReCaptchaUi\Model\RequestHandler"/>
     <preference for="Magento\ReCaptchaUi\Model\CaptchaResponseResolverInterface" type="Magento\ReCaptchaUi\Model\CaptchaResponseResolver"/>

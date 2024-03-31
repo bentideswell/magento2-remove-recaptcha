@@ -1,6 +1,6 @@
 {
     "name": "fishpig/magento2-remove-recaptcha",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "autoload": {
         "files": [
             "registration.php"
