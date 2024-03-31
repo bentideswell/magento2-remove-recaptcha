@@ -8,24 +8,25 @@ declare(strict_types=1);
 namespace Magento\ReCaptchaUi\Model;
 
 use Magento\Framework\Exception\InputException;
+use Magento\ReCaptchaValidationApi\Api\Data\ValidationConfigInterface;
 
-class UiConfigResolver implements UiConfigResolverInterface
+class ValidationConfigResolver implements ValidationConfigResolverInterface
 {
     /**
      *
      */
     public function __construct(
-        array $uiConfigProviders = []
+        array $validationConfigProviders = []
     ) {
     }
 
     /**
      * @inheritdoc
      */
-    public function get(string $key): array
+    public function get(string $key): ValidationConfigInterface
     {
         throw new InputException(
-            __('UI config provider for "%type" is not configured.', ['type' => $key])
+            __('Validation config provider for "%type" is not configured.', ['type' => $key])
         );
     }
 }

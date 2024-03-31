@@ -10,18 +10,18 @@ namespace Magento\ReCaptchaUi\Model;
 use Magento\Framework\Exception\InputException;
 
 /**
- * Extension point for reCAPTCHA UI config
+ * reCAPTCHA type resolver
  *
  * @api
  */
-interface UiConfigResolverInterface
+interface CaptchaTypeResolverInterface
 {
     /**
-     * Resolve UI config for reCAPTCHA rendering
+     * Get reCAPTCHA type for specific functionality. Return NULL id reCAPTCHA is disabled for this functionality
      *
      * @param string $key Functionality identifier (like customer login, contact)
-     * @return array
-     * @throws InputException If UI config for "%key" is not configured
+     * @return string|null
+     * @throws InputException
      */
-    public function get(string $key): array;
+    public function getCaptchaTypeFor(string $key): ?string;
 }

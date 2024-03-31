@@ -7,13 +7,15 @@ declare(strict_types=1);
 
 namespace Magento\ReCaptchaUi\Model;
 
-class IsCaptchaEnabled implements IsCaptchaEnabledInterface
+use Magento\Framework\App\RequestInterface;
+
+class CaptchaResponseResolver implements CaptchaResponseResolverInterface
 {
     /**
      * @inheritdoc
      */
-    public function isCaptchaEnabledFor(string $key): bool
+    public function resolve(RequestInterface $request): string
     {
-        return false;
+        return '';
     }
 }
