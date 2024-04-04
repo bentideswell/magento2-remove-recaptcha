@@ -8,5 +8,5 @@
     <preference for="Magento\ReCaptchaUi\Model\RequestHandlerInterface" type="Magento\ReCaptchaUi\Model\RequestHandler"/>
     <preference for="Magento\ReCaptchaUi\Model\CaptchaResponseResolverInterface" type="Magento\ReCaptchaUi\Model\CaptchaResponseResolver"/>
     <preference for="Magento\ReCaptchaUi\Model\CaptchaTypeResolverInterface" type="Magento\ReCaptchaUi\Model\CaptchaTypeResolver"/>
-
+    <preference for="Magento\ReCaptchaWebapiApi\Api\WebapiValidationConfigProviderInterface" type="Magento\ReCaptchaWebapiApi\Model\CompositeWebapiValidationConfigProvider" />
 </config>
