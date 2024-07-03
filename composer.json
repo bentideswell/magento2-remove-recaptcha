@@ -1,5 +1,6 @@
 {
     "name": "fishpig/magento2-remove-recaptcha",
+    "description": "Remove the Re-Captcha integration in Magento 2.",
     "version": "1.0.9",
     "autoload": {
         "files": [
