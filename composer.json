@@ -1,7 +1,7 @@
 {
     "name": "fishpig/magento2-remove-recaptcha",
     "description": "Remove the Re-Captcha integration in Magento 2.",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "autoload": {
         "files": [
             "registration.php"
@@ -35,6 +35,7 @@
         "magento/module-re-captcha-webapi-api": "*",
         "magento/module-re-captcha-webapi-graph-ql": "*",
         "magento/module-re-captcha-webapi-rest": "*",
-        "magento/module-re-captcha-webapi-ui": "*"
+        "magento/module-re-captcha-webapi-ui": "*",
+        "magento/module-re-captcha-wishlist": "*"
     }
 }
